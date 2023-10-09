@@ -1,0 +1,18 @@
+-> CONSOLE.LOG()
+Usada para imprimir algo na tela console, podendo ser utilizado: aspas simples, aspas duplas ou crase.
+	Ex: CONSOLE.LOG('Nome Sobrenome')
+	Ex: CONSOLE.LOG("Nome Sobrenome")
+	Ex: CONSOLE.LOG(`"Nome" 'Sobrenome'`)
+	[Running] node "c:\CursoJS\JS\aula1\exercicios\tempCodeRunnerFile.js"
+	Nome Sobrenome
+	Nome 'Sobrenome'
+	Nome "Sobrenome"
+	"Nome" 'Sobrenome'
+	
+Para colocar um texto entre aspas e aparecer dessa forma na tela, deve-se abrir e fechar aspas duplas ("") e o texto que você quer deixar entre aspas, você usa aspas simples('').
+
+-> STRING
+É considerada uma string todo texto dentro de aspas simples, aspas duplas ou crase
+
+-> NUMBER
+É possível exibir números literais dentro da função CONSOLE.LOG(123456) e também números reais que para separar as casas decimais é utilizado o ponto CONSOLE.LOG(13.2), porém não devem ser colocados entre aspas.
